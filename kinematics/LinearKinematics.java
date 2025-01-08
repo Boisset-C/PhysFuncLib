@@ -37,7 +37,7 @@ class LinearKinematics implements Kinematics {
   // 3. acceleration: (a)
   // 4. time elapsed: (t)
   public double calculateAbsolutePosition(double x0, double v0, double t, double a) {
-    double position = x0 + v0 * t + (1/2 * a * Math.pow(t, 2));
+    double position = x0 + v0 * t + (1.0 / 2 * a * Math.pow(t, 2));
 
     return position;
   }
@@ -75,7 +75,7 @@ class LinearKinematics implements Kinematics {
   // 3. final velocity: vx (m/s)
   // 4. time elapsed: t (seconds)
   public double calculateDisplacementUsingAverageVelocity(double x0, double v0x, double vx, double t) {
-    double displacementUsingAverageVelocity = x0 + 1/2 * (v0x + vx) * t; 
+    double displacementUsingAverageVelocity = x0 + 1.0 / 2 * (v0x + vx) * t; 
 
     return displacementUsingAverageVelocity;
   }

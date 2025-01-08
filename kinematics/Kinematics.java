@@ -8,10 +8,10 @@ LINEAR KINEMATICS
 public interface Kinematics {
   
   //Abstract Methods - Equations of Linear Kinematics
-  double calculateAbsolutePosition(double initialPosition, double initialVelocity, double time,    double acceleration);
+  // double calculateAbsolutePosition(double initialPosition, double initialVelocity, double time,    double acceleration);
 
-  double calculateFinalVelocityUsingTime(double initialVelocity, double acceleration, double time);
+  // double calculateFinalVelocityUsingTime(double initialVelocity, double acceleration, double time);
 
-  double calculateFinalVelocityUsingDisplacement(double initialVelocity, double accelaration, double displacement);
+  // double calculateFinalVelocityUsingDisplacement(double initialVelocity, double accelaration, double displacement);
   
 }
